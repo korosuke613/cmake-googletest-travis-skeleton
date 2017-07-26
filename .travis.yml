@@ -6,8 +6,8 @@ script:
 - bash install.sh
 
 #after_success:
-#- make test
-#- coveralls --exclude "test" --exclude "CMakeFiles" --include "lib/" 
+ - pip install --user codecov
+ - codecov -t 728de138-8d7f-4c6f-9d93-7b2383e3848c
 
 notifications:
   email: false
