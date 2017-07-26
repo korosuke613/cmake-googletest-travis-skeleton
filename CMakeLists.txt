@@ -75,6 +75,8 @@ target_link_libraries(${PROJECT_TEST_NAME} ${CMAKE_THREAD_LIBS_INIT})
 
 add_test(test1 ${PROJECT_TEST_NAME})
 
+set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/.travis/cmake)
+
 if (CMAKE_BUILD_TYPE STREQUAL "Coverage")
     include(CodeCoverage)
     setup_target_for_coverage(test_coverage ${PROJECT_TEST_NAME} coverage)
