@@ -2,10 +2,13 @@ language: cpp
 compiler:
 - gcc
 
+sudo: true
+
 script:
 - bash install.sh
 
 after_success:
+ - sudo apt-get install lcov
  - pip install --user codecov
  - codecov -t 728de138-8d7f-4c6f-9d93-7b2383e3848c
 
