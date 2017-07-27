@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/rmnorris/cmake-googletest-travis-skeleton.svg?branch=master)](https://travis-ci.org/rmnorris/cmake-googletest-travis-skeleton)
+[![Build Status](https://travis-ci.org/korosuke613/travis-gtest-cmake-example.svg?branch=master)](https://travis-ci.org/korosuke613/travis-gtest-cmake-example) [![codecov](https://codecov.io/gh/korosuke613/cmake-googletest-travis-skeleton/branch/master/graph/badge.svg)](https://codecov.io/gh/korosuke613/cmake-googletest-travis-skeleton)
 
 # cmake-googletest-travis-skeleton
 
